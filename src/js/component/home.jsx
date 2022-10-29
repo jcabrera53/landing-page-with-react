@@ -55,8 +55,8 @@ const Jumbo = () =>{
 const Cards = () =>{
   return (
     <div className="container">
-      <div className="card-deck d-md-flex ">
-        <div className="card col-sm-12 col-md-3">
+      <div className="card col-lg-12 col-lg-3">
+        
           <img
             src="https://pbs.twimg.com/profile_images/1523083855938433028/OzNv9aVs_400x400.jpg"
             className="card-img-top"
@@ -76,8 +76,7 @@ const Cards = () =>{
               Find out more!
             </a>
           </div>
-        </div>
-        </div>
+          </div>
     </div>
   );
 };
@@ -100,10 +99,13 @@ const Home = () => {
 <Navigation/>
 <div className="container" id="box">
 <Jumbo />
+<div className="card-deck d-lg-flex ">
+
 <Cards />
 <Cards />
 <Cards />
 <Cards />
+</div>
 </div>
 <Footer />
 </div>
